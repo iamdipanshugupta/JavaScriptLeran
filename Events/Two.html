@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chai Aur Code</title>
+</head>
+
+<body>
+  <h1>Chai Aur Code</h1>
+  <button id="stop">Stop</button>
+  <!-- <button id="stop">Stop</button>
+
+  <form id="myForm">
+    <button type="submit">Submit</button>
+    <a href="https://google.com" id="link">Go to Google</a>
+  </form> -->
+
+  <script>
+    // const buttons = document.querySelector("#stop");
+    // buttons.style.color = "white";
+    // buttons.style.backgroundColor = "blue";
+    // buttons.style.padding = "6px";
+    // buttons.style.margin = "6px";
+    // buttons.style.borderRadius = "4px";
+    // buttons.style.border = "2px solid black";
+    // buttons.innerHTML = "start";
+    // buttons.style.fontSize = "16px";
+    // buttons.style.fontFamily = "sans";
+    // buttons.addEventListener("click", function (e) {
+    //   alert("helo world");
+    //   e.preventDefault();
+    // });
+    // document
+    //   .querySelector("#myForm")
+    //   .addEventListener("submit", function (e) {
+    //     e.preventDefault();
+    //     alert("Form submit hone se roka gaya!");
+    //   });
+    // document.querySelector("#link").addEventListener("click", function (e) {
+    //   e.preventDefault();
+    //   // alert("Google nahi jaane dunga 😎");
+    // });
+    
+    // setTimeout(function (){
+    //   console.log("Rahul Randi")
+    // },10000);
+    // setInterval(function(){
+    //   console.log("dip")
+    // },2000)
+
+    const sayHitesh = function(){
+      console.log("hlo")
+    }
+
+    const changetext =  function(){
+       document.querySelector('h1').innerHTML = "Best JS Series"
+    }
+    const changeMe = setTimeout(changetext,6000)
+    document.querySelector('#stop').addEventListener('click' , function(){
+      clearTimeout(changeMe)
+      console.log("stopped")
+    })
+    </script>
+</body>
+
+</html>

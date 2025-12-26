@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #615f5f;
+    color: black;
+}
+
+#wrapper {
+
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px 2px inset;
+}
+
+h1 {
+    text-decoration: underline;
+    color: cadetblue;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 12px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+
+}
+
+.guessField {
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.guessSubmit {
+    padding: 4px;
+    background-color: rgb(26, 26, 95);
+    border-radius: 4px;
+    border: 2px solid black;
+}
